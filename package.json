@@ -1,0 +1,19 @@
+{
+  "name": "real-java",
+  "version": "0.0.1",
+  "description": "Repository for coffee collaboration",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnddg/Real_Java.git"
+  },
+  "author": "rnddg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rnddg/Real_Java/issues"
+  },
+  "homepage": "https://github.com/rnddg/Real_Java#readme"
+}
