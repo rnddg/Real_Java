@@ -9,9 +9,9 @@ Inquisitive brewers can query for beans and equipment to receive recommendations
 settings; also prompted for bean and equipment sales if interested in new things.
 
 ###Needs Assessment
-Database
-Interactive query
-Results
-Login
-Account Management
-Storefront
+* Database
+* Interactive query
+* Results
+* Login
+* Account Management
+* Storefront
