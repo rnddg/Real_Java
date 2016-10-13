@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rnddg/Real_Java/issues"
   },
-  "homepage": "https://github.com/rnddg/Real_Java#readme"
+  "homepage": "https://github.com/rnddg/Real_Java#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
