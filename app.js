@@ -1,18 +1,21 @@
+var hbs = require('hbs');
 var express = require('express');
 var app = express();
+var routes = require('./routes');
 
-app.use(express.static('public'));
+// Set view engine to handlebars
+app.set('view engine', 'hbs');
+hbs.registerPartials(__dirname + '/views/partials');
 
-// Define Routes
-app.get('/', function(req, res){
-  res.send('Real_Java Running');
-});
+app.get('/', routes.index);
 
-app.get('/beans/:beanId/:beanName', function(req, res) {
-  res.send(req.params);
+// Handle 404s
+app.get('*', function(req, res){
+  res.send('404 -- Bad Route');
 });
 
 // Listen on port 3000
 app.listen(3000, function(){
   console.log('Real_Java running on port 3000');
+  // console.log(partialList);
 })
