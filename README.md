@@ -23,5 +23,7 @@ and the [ember CLI.](https://ember-cli.com/)
 
 ## Basic Usage
 
+Install dependencies with `npm install` and `bower install`.
+
 Run a new instance of **Real_Java** on port 4200 with `ember server`, then visit
 [http://localhost:4200](http://localhost:4200) to view the app.
